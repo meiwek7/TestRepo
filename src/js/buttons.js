@@ -3,6 +3,4 @@ let body = document.querySelector('body');
 button.innerHTML = 'click me';
 body.append(button);
 
-$("#test").innerText = "HelloCheliki!";
-
-console.log($("#test"));
+$("#test").text("HelloCheliki!");
